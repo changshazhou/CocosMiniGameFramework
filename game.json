@@ -6,5 +6,33 @@
         "uploadFile": 5000,
         "downloadFile": 5000
     },
-    "subpackages": []
+    "plugins": {
+        "cocos": {
+            "provider": "wx7095f7fa398a2f30",
+            "version": "2.4.3",
+            "path": "cocos"
+        }
+    },
+    "subpackages": [
+        {
+            "name": "endform",
+            "root": "subpackages/endform"
+        },
+        {
+            "name": "gameform",
+            "root": "subpackages/gameform"
+        },
+        {
+            "name": "homeform",
+            "root": "subpackages/homeform"
+        },
+        {
+            "name": "mistouch",
+            "root": "subpackages/mistouch"
+        },
+        {
+            "name": "shopform",
+            "root": "subpackages/shopform"
+        }
+    ]
 }

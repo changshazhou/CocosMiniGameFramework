@@ -10,7 +10,7 @@
     },
     "compileType": "game",
     "libVersion": "game",
-    "appid": "wx5a373d9dfd992388",
+    "appid": "wx840e2e246968f224",
     "projectname": "framework",
     "condition": {
         "search": {
@@ -30,5 +30,7 @@
             "current": -1,
             "list": []
         }
-    }
+    },
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {}
 }
