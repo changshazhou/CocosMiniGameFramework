@@ -1,0 +1,126 @@
+{
+    "paths": {
+        "a8gy5ik1NA6ZanORi5wO07": [
+            "homeForm",
+            "cc.Prefab"
+        ],
+        "e0j4aymlhCO4Bu63uUypqp": [
+            "sound/fail",
+            "cc.AudioClip"
+        ],
+        "d7x+X1IiNMzYR2yrl3Vxx1": [
+            "sound/win",
+            "cc.AudioClip"
+        ],
+        "30fLwzcb1EZ7l3co1GzMCN": [
+            "texture/AutoAtlas",
+            "cc.SpriteAtlas"
+        ],
+        "39dneUfZFEUJScAxyM6JVA": [
+            "texture/bg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "65fch+uVVEHYxST0NaPTNU": [
+            "texture/bg",
+            "cc.Texture2D"
+        ],
+        "2fbrX2GChITZay/YQfEWUC": [
+            "texture/soundOff",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9bU5KMljpFgpMzY8Oms3Zx": [
+            "texture/soundOn",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c8pqzT7ddDNpe5dev4qoN+": [
+            "texture/上一章",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b0EzQsAWtGPbpxh/hV+u0f": [
+            "texture/下一章",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8eDAYkCDNHE4LLw7PfM5AB": [
+            "texture/下一章按钮",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ffZRKTUPhHt73HbsFHWozC": [
+            "texture/你在这",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a2eDtsdUZBhp3J53f4bsWO": [
+            "texture/开始游戏",
+            "cc.SpriteFrame",
+            1
+        ],
+        "89LmI1ysBE8IDA6Q7AN2jH": [
+            "texture/未解锁地图",
+            "cc.SpriteFrame",
+            1
+        ],
+        "08RNur3ztD9YjHvgqRYTFl": [
+            "texture/解锁地图",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "08RNur3ztD9YjHvgqRYTFl",
+        "1911e9d5f",
+        "2fbrX2GChITZay/YQfEWUC",
+        "30fLwzcb1EZ7l3co1GzMCN",
+        "39dneUfZFEUJScAxyM6JVA",
+        "4ag6j5MrRI+43DkEt3Oe6w",
+        "65fch+uVVEHYxST0NaPTNU",
+        "89LmI1ysBE8IDA6Q7AN2jH",
+        "8eDAYkCDNHE4LLw7PfM5AB",
+        "9bU5KMljpFgpMzY8Oms3Zx",
+        "a2eDtsdUZBhp3J53f4bsWO",
+        "a8gy5ik1NA6ZanORi5wO07",
+        "b0EzQsAWtGPbpxh/hV+u0f",
+        "c8pqzT7ddDNpe5dev4qoN+",
+        "d2zp2E9YVHkbdTn+48cqWF",
+        "d7x+X1IiNMzYR2yrl3Vxx1",
+        "e0j4aymlhCO4Bu63uUypqp",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "edumCYq3JImqQtsNTHci+i",
+        "ffZRKTUPhHt73HbsFHWozC"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "053d14de3": [
+            "1911e9d5f",
+            "65fch+uVVEHYxST0NaPTNU",
+            "d2zp2E9YVHkbdTn+48cqWF"
+        ],
+        "0e7678a95": [
+            "2fbrX2GChITZay/YQfEWUC",
+            "39dneUfZFEUJScAxyM6JVA",
+            "4ag6j5MrRI+43DkEt3Oe6w",
+            "9bU5KMljpFgpMzY8Oms3Zx",
+            "a2eDtsdUZBhp3J53f4bsWO",
+            "a8gy5ik1NA6ZanORi5wO07",
+            "edumCYq3JImqQtsNTHci+i"
+        ]
+    },
+    "name": "homeform",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

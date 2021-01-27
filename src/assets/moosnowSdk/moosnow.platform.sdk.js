@@ -2624,7 +2624,7 @@ var mx = (function () {
             });
             var self = this;
             var userToken = moosnow.data.getToken();
-            if (userToken && !isNaN(userToken)) {
+            if (!isNaN(userToken)) {
                 self.getUserToken("", userToken, callback);
             }
             else {
@@ -5459,7 +5459,6 @@ var mx = (function () {
             _this.platformName = "qq";
             _this.mBannerWidth = 320;
             _this.bannerHeigth = Math.round(_this.bannerWidth / 300 * 72.8071);
-            _this.banner = [];
             _this._regisiterWXCallback();
             _this.initBanner();
             return _this;
@@ -5512,22 +5511,34 @@ var mx = (function () {
             console.log(" 显示前先关闭 banner ");
             this.hideBanner();
             console.log(" QQModule ~ _createBannerAd ~ style", style, bannerId);
-            var bannerAd = window[this.platformName].createBannerAd({
+            this.banner[bannerId] = window[this.platformName].createBannerAd({
                 adUnitId: bannerId,
                 style: style
             });
-            // if (bannerAd) {
-            //     // bannerAd.onResize(this._onBannerResize);
-            //     // bannerAd.onError(this._onBannerError);
-            //     // bannerAd.onLoad(this._onBannerLoad.bind(this));
-            // }
-            this.banner.push(bannerAd);
+            if (this.banner[bannerId]) {
+                this.banner[bannerId].onResize(this._onBannerResize);
+                this.banner[bannerId].onError(this._onBannerError);
+                this.banner[bannerId].onLoad(this._onBannerLoad.bind(this));
+            }
             return bannerId;
         };
-        QQModule.prototype._onBannerLoad2 = function (bannerAd) {
-            bannerAd.loadCompleted = true;
-        };
         QQModule.prototype._onBannerLoad = function () {
+            console.log("banner 加载结束 bannerId");
+            for (var k in this.banner) {
+                if (k != this.currentBannerId) {
+                    this.banner[k].hide();
+                    this.banner[k].destroy();
+                    this.banner[k] = null;
+                    delete this.banner[k];
+                }
+            }
+            var banner = this.banner[this.currentBannerId];
+            if (banner) {
+                banner.show();
+            }
+            else {
+                console.log('banner 不存在');
+            }
         };
         QQModule.prototype._onBannerError = function (bannerId, err) {
             console.warn('banner___error:', err, ' bannerId ', bannerId);
@@ -5572,7 +5583,7 @@ var mx = (function () {
             }
         };
         QQModule.prototype._showBanner = function () {
-            var banner = this.banner[this.banner.length - 1];
+            var banner = this.banner[this.currentBannerId];
             if (banner) {
                 banner.show();
             }
@@ -5638,13 +5649,14 @@ var mx = (function () {
          * 隐藏banner
          */
         QQModule.prototype.hideBanner = function () {
-            console.log(" QQModule ~ hideBanner ~ this.banner", JSON.stringify(this.banner));
-            this.banner.forEach(function (item) {
-                if (item.hide) {
-                    console.log(" QQModule ~ hideBanner ~ item", item);
+            console.log(" hideBanner ~ this.banner", this.banner);
+            if (this.banner)
+                for (var k in this.banner) {
+                    this.banner[k].hide();
+                    this.banner[k].destroy();
+                    this.banner[k] = null;
+                    delete this.banner[k];
                 }
-                item.hide();
-            });
         };
         QQModule.prototype.hideAppBox = function (callback) {
             var _this = this;

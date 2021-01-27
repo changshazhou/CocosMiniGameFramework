@@ -1,1 +1,75 @@
-window.__require=function e(t,r,n){function o(i,f){if(!r[i]){if(!t[i]){var u=i.split("/");if(u=u[u.length-1],!t[u]){var p="function"==typeof __require&&__require;if(!f&&p)return p(u,!0);if(c)return c(u,!0);throw new Error("Cannot find module '"+i+"'")}i=u}var s=r[i]={exports:{}};t[i][0].call(s.exports,function(e){return o(t[i][1][e]||e)},s,s.exports,e,t,r,n)}return r[i].exports}for(var c="function"==typeof __require&&__require,i=0;i<n.length;i++)o(n[i]);return o}({endForm:[function(e,t,r){"use strict";cc._RF.push(t,"f3385sV0fZIV5xd8ctZESgx","endForm");var n,o=this&&this.__extends||(n=function(e,t){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var r in t)t.hasOwnProperty(r)&&(e[r]=t[r])})(e,t)},function(e,t){function r(){this.constructor=e}n(e,t),e.prototype=null===t?Object.create(t):(r.prototype=t.prototype,new r)}),c=this&&this.__decorate||function(e,t,r,n){var o,c=arguments.length,i=c<3?t:null===n?n=Object.getOwnPropertyDescriptor(t,r):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)i=Reflect.decorate(e,t,r,n);else for(var f=e.length-1;f>=0;f--)(o=e[f])&&(i=(c<3?o(i):c>3?o(t,r,i):o(t,r))||i);return c>3&&i&&Object.defineProperty(t,r,i),i};Object.defineProperty(r,"__esModule",{value:!0});var i=e("../../script/framework/ui/endBase"),f=cc._decorator,u=f.ccclass,p=(f.property,function(e){function t(){return null!==e&&e.apply(this,arguments)||this}return o(t,e),c([u],t)}(i.default));r.default=p,cc._RF.pop()},{"../../script/framework/ui/endBase":void 0}]},{},["endForm"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  endForm: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "f3385sV0fZIV5xd8ctZESgx", "endForm");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) b.hasOwnProperty(p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var endBase_1 = require("../../script/framework/ui/endBase");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var endForm = function(_super) {
+      __extends(endForm, _super);
+      function endForm() {
+        return null !== _super && _super.apply(this, arguments) || this;
+      }
+      endForm = __decorate([ ccclass ], endForm);
+      return endForm;
+    }(endBase_1.default);
+    exports.default = endForm;
+    cc._RF.pop();
+  }, {
+    "../../script/framework/ui/endBase": void 0
+  } ]
+}, {}, [ "endForm" ]);

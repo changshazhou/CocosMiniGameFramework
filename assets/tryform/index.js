@@ -1,1 +1,101 @@
-window.__require=function t(r,e,o){function n(c,u){if(!e[c]){if(!r[c]){var f=c.split("/");if(f=f[f.length-1],!r[f]){var s="function"==typeof __require&&__require;if(!u&&s)return s(f,!0);if(i)return i(f,!0);throw new Error("Cannot find module '"+c+"'")}c=f}var a=e[c]={exports:{}};r[c][0].call(a.exports,function(t){return n(r[c][1][t]||t)},a,a.exports,t,r,e,o)}return e[c].exports}for(var i="function"==typeof __require&&__require,c=0;c<o.length;c++)n(o[c]);return n}({tryForm:[function(t,r,e){"use strict";cc._RF.push(r,"c1715ugoDJMEqBTzJV1Pj5r","tryForm");var o,n=this&&this.__extends||(o=function(t,r){return(o=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,r){t.__proto__=r}||function(t,r){for(var e in r)r.hasOwnProperty(e)&&(t[e]=r[e])})(t,r)},function(t,r){function e(){this.constructor=t}o(t,r),t.prototype=null===r?Object.create(r):(e.prototype=r.prototype,new e)}),i=this&&this.__decorate||function(t,r,e,o){var n,i=arguments.length,c=i<3?r:null===o?o=Object.getOwnPropertyDescriptor(r,e):o;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)c=Reflect.decorate(t,r,e,o);else for(var u=t.length-1;u>=0;u--)(n=t[u])&&(c=(i<3?n(c):i>3?n(r,e,c):n(r,e))||c);return i>3&&c&&Object.defineProperty(r,e,c),c};Object.defineProperty(e,"__esModule",{value:!0});var c=t("../../script/framework/ui/tryBase"),u=t("../../script/framework/utils/Common"),f=t("../../sheets/vo/SkinCfg"),s=cc._decorator,a=s.ccclass,p=(s.property,function(t){function r(){return null!==t&&t.apply(this,arguments)||this}return n(r,t),r.prototype.changeSkin=function(){var t=this;Lite.resource.loadAsset("skin/"+this.mTrySkin.ID+"/7",cc.SpriteFrame,function(r,e){r||(t.logo.spriteFrame=e)})},r.prototype.showTrySkin=function(){var t=f.SkinCfg.getAll(),r=[];if(t.forEach(function(t){Lite.data.getUserSkinById(t.ID)||r.push(t)}),0!=r.length){var e=u.default.randomNumBoth(0,r.length-1);this.mTrySkin=r[e],this.changeSkin()}else this.closeTry()},i([a],r)}(c.default));e.default=p,cc._RF.pop()},{"../../script/framework/ui/tryBase":void 0,"../../script/framework/utils/Common":void 0,"../../sheets/vo/SkinCfg":void 0}]},{},["tryForm"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  tryForm: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "c1715ugoDJMEqBTzJV1Pj5r", "tryForm");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) b.hasOwnProperty(p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var tryBase_1 = require("../../script/framework/ui/tryBase");
+    var Common_1 = require("../../script/framework/utils/Common");
+    var SkinCfg_1 = require("../../sheets/vo/SkinCfg");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var tryForm = function(_super) {
+      __extends(tryForm, _super);
+      function tryForm() {
+        return null !== _super && _super.apply(this, arguments) || this;
+      }
+      tryForm.prototype.changeSkin = function() {
+        var _this = this;
+        Lite.resource.loadAsset("skin/" + this.mTrySkin.ID + "/7", cc.SpriteFrame, function(err, spriteFrame) {
+          if (err) return;
+          _this.logo.spriteFrame = spriteFrame;
+        });
+      };
+      tryForm.prototype.showTrySkin = function() {
+        var skinAll = SkinCfg_1.SkinCfg.getAll();
+        var skinArr = [];
+        skinAll.forEach(function(item) {
+          var userSkin = Lite.data.getUserSkinById(item.ID);
+          userSkin || skinArr.push(item);
+        });
+        if (0 == skinArr.length) {
+          this.closeTry();
+          return;
+        }
+        var tryIndex = Common_1.default.randomNumBoth(0, skinArr.length - 1);
+        this.mTrySkin = skinArr[tryIndex];
+        this.changeSkin();
+      };
+      tryForm = __decorate([ ccclass ], tryForm);
+      return tryForm;
+    }(tryBase_1.default);
+    exports.default = tryForm;
+    cc._RF.pop();
+  }, {
+    "../../script/framework/ui/tryBase": void 0,
+    "../../script/framework/utils/Common": void 0,
+    "../../sheets/vo/SkinCfg": void 0
+  } ]
+}, {}, [ "tryForm" ]);

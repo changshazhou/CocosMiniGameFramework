@@ -1,0 +1,159 @@
+{
+    "paths": {
+        "89LdqdLC5MJKIA3AExh7u1": [
+            "entity/map1",
+            "cc.Prefab"
+        ],
+        "c2RZEUBtlJx6f6v3NI98Ub": [
+            "entity/map2",
+            "cc.Prefab"
+        ],
+        "ferjrB4SRMNYIjqwWu3Uj0": [
+            "gameForm",
+            "cc.Prefab"
+        ],
+        "1ciI8kGGNLJ63hBoaQFyOQ": [
+            "texture/AutoAtlas",
+            "cc.SpriteAtlas"
+        ],
+        "a8/XPXNdVKbqvsf8f5JLCx": [
+            "texture/bg1",
+            "cc.Texture2D"
+        ],
+        "fdb1D4cThBp7OCkHVBxjYC": [
+            "texture/bg1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "20A4WUyo9NWo6M+Dijrgog": [
+            "texture/bg2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4aZB/DZE1D7YVymDKiqVeW": [
+            "texture/bg2",
+            "cc.Texture2D"
+        ],
+        "6flH54lIZMZKqViBEsqOid": [
+            "texture/btn_attack",
+            "cc.SpriteFrame",
+            1
+        ],
+        "35PO+Db+BKhZ/qDs4IT48Y": [
+            "texture/btn_jump",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8e8QIGwrpL9bvA/EHW+ugP": [
+            "texture/btn_move_left",
+            "cc.SpriteFrame",
+            1
+        ],
+        "69Baen52JM0LbJvXdWUwYb": [
+            "texture/btn_move_right",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3ddFuo3n5HDK1HFx34/LYu": [
+            "texture/冰砖",
+            "cc.SpriteFrame",
+            1
+        ],
+        "afCvfLTDdLZqWpO3jVOTpK": [
+            "texture/地砖",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4erwi/rOVK5p/SHhRHXeuj": [
+            "texture/当前关卡",
+            "cc.SpriteFrame",
+            1
+        ],
+        "46TRBK7xlCyYiofdQWy4jo": [
+            "texture/金币",
+            "cc.SpriteFrame",
+            1
+        ],
+        "07gUN/O+5BlLd42YBD3F15": [
+            "texture/飞镖",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "07gUN/O+5BlLd42YBD3F15",
+        "1ciI8kGGNLJ63hBoaQFyOQ",
+        "1f729feb0",
+        "20A4WUyo9NWo6M+Dijrgog",
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "35PO+Db+BKhZ/qDs4IT48Y",
+        "3ddFuo3n5HDK1HFx34/LYu",
+        "46TRBK7xlCyYiofdQWy4jo",
+        "4aZB/DZE1D7YVymDKiqVeW",
+        "4erwi/rOVK5p/SHhRHXeuj",
+        "675ovJ2tVK2aLYfgPUWOMv",
+        "69Baen52JM0LbJvXdWUwYb",
+        "6eBWFz0oVHPLIGQKf/9Thu",
+        "6flH54lIZMZKqViBEsqOid",
+        "71VhFCTINJM6/Ky3oX9nBT",
+        "8855/VlrRKd6H0MSRnFxAU",
+        "89LdqdLC5MJKIA3AExh7u1",
+        "8c20Sso/ZEn7NUfNSM+EBh",
+        "8e8QIGwrpL9bvA/EHW+ugP",
+        "99FwsL0hBG8bITfZ4/IwmK",
+        "a8/XPXNdVKbqvsf8f5JLCx",
+        "afCvfLTDdLZqWpO3jVOTpK",
+        "b4P/PCArtIdIH38t6mlw8Y",
+        "c2RZEUBtlJx6f6v3NI98Ub",
+        "cf73jxyN9Jt47QTJU6ziYh",
+        "e8Ueib+qJEhL6mXAHdnwbi",
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        "fdb1D4cThBp7OCkHVBxjYC",
+        "ferjrB4SRMNYIjqwWu3Uj0"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "072a1914e": [
+            "1f729feb0",
+            "4aZB/DZE1D7YVymDKiqVeW",
+            "6eBWFz0oVHPLIGQKf/9Thu",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "99FwsL0hBG8bITfZ4/IwmK",
+            "a8/XPXNdVKbqvsf8f5JLCx",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "cf73jxyN9Jt47QTJU6ziYh",
+            "e8Ueib+qJEhL6mXAHdnwbi"
+        ],
+        "0d79ff02d": [
+            "20A4WUyo9NWo6M+Dijrgog",
+            "29FYIk+N1GYaeWH/q1NxQO",
+            "35PO+Db+BKhZ/qDs4IT48Y",
+            "675ovJ2tVK2aLYfgPUWOMv",
+            "69Baen52JM0LbJvXdWUwYb",
+            "6flH54lIZMZKqViBEsqOid",
+            "8855/VlrRKd6H0MSRnFxAU",
+            "8c20Sso/ZEn7NUfNSM+EBh",
+            "8e8QIGwrpL9bvA/EHW+ugP",
+            "afCvfLTDdLZqWpO3jVOTpK",
+            "e97GVMl6JHh5Ml5qEDdSGa",
+            "f0BIwQ8D5Ml7nTNQbh1YlS",
+            "fdb1D4cThBp7OCkHVBxjYC",
+            "ferjrB4SRMNYIjqwWu3Uj0"
+        ]
+    },
+    "name": "gameform",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

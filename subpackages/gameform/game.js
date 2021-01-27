@@ -1,1 +1,95 @@
-window.__require=function e(t,r,o){function n(c,f){if(!r[c]){if(!t[c]){var p=c.split("/");if(p=p[p.length-1],!t[p]){var u="function"==typeof __require&&__require;if(!f&&u)return u(p,!0);if(i)return i(p,!0);throw new Error("Cannot find module '"+c+"'")}c=p}var a=r[c]={exports:{}};t[c][0].call(a.exports,function(e){return n(t[c][1][e]||e)},a,a.exports,e,t,r,o)}return r[c].exports}for(var i="function"==typeof __require&&__require,c=0;c<o.length;c++)n(o[c]);return n}({gameForm:[function(e,t,r){"use strict";cc._RF.push(t,"80c9e8u/0pDAbZ4b7EeXxIT","gameForm");var o,n=this&&this.__extends||(o=function(e,t){return(o=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var r in t)t.hasOwnProperty(r)&&(e[r]=t[r])})(e,t)},function(e,t){function r(){this.constructor=e}o(e,t),e.prototype=null===t?Object.create(t):(r.prototype=t.prototype,new r)}),i=this&&this.__decorate||function(e,t,r,o){var n,i=arguments.length,c=i<3?t:null===o?o=Object.getOwnPropertyDescriptor(t,r):o;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)c=Reflect.decorate(e,t,r,o);else for(var f=e.length-1;f>=0;f--)(n=e[f])&&(c=(i<3?n(c):i>3?n(t,r,c):n(t,r))||c);return i>3&&c&&Object.defineProperty(t,r,c),c};Object.defineProperty(r,"__esModule",{value:!0});var c=e("../../script/framework/ui/gameBase"),f=cc._decorator,p=f.ccclass,u=f.property,a=function(e){function t(){var t=null!==e&&e.apply(this,arguments)||this;return t.btnEnd=null,t}return n(t,e),t.prototype.loadLevel=function(){},t.prototype.addListener=function(){e.prototype.addListener.call(this),this.btnEnd.on(cc.Node.EventType.TOUCH_END,this.failGame,this)},t.prototype.removeListener=function(){e.prototype.removeListener.call(this),this.btnEnd.off(cc.Node.EventType.TOUCH_END,this.failGame,this)},i([u(cc.Node)],t.prototype,"btnEnd",void 0),i([p],t)}(c.default);r.default=a,cc._RF.pop()},{"../../script/framework/ui/gameBase":void 0}]},{},["gameForm"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  gameForm: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "80c9e8u/0pDAbZ4b7EeXxIT", "gameForm");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) b.hasOwnProperty(p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var gameBase_1 = require("../../script/framework/ui/gameBase");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var GameForm = function(_super) {
+      __extends(GameForm, _super);
+      function GameForm() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.btnEnd = null;
+        return _this;
+      }
+      GameForm.prototype.loadLevel = function() {};
+      GameForm.prototype.addListener = function() {
+        _super.prototype.addListener.call(this);
+        this.btnEnd.on(cc.Node.EventType.TOUCH_END, this.failGame, this);
+      };
+      GameForm.prototype.removeListener = function() {
+        _super.prototype.removeListener.call(this);
+        this.btnEnd.off(cc.Node.EventType.TOUCH_END, this.failGame, this);
+      };
+      GameForm.prototype.onShow = function(data) {
+        _super.prototype.onShow.call(this, data);
+        moosnow.platform.showIntervalBanner();
+      };
+      GameForm.prototype.onHide = function(data) {
+        _super.prototype.onShow.call(this, data);
+        moosnow.platform.clearIntervalBanner();
+      };
+      __decorate([ property(cc.Node) ], GameForm.prototype, "btnEnd", void 0);
+      GameForm = __decorate([ ccclass ], GameForm);
+      return GameForm;
+    }(gameBase_1.default);
+    exports.default = GameForm;
+    cc._RF.pop();
+  }, {
+    "../../script/framework/ui/gameBase": void 0
+  } ]
+}, {}, [ "gameForm" ]);

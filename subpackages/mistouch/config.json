@@ -1,0 +1,299 @@
+{
+    "paths": {
+        "7dyQ20x9BJcpYfNPd+r4Or": [
+            "anim/attack",
+            "cc.AnimationClip"
+        ],
+        "bcO51hzV1F4pXFHWHFY2Vp": [
+            "anim/stand",
+            "cc.AnimationClip"
+        ],
+        "0fFOvGvFFHd5nJTLtRe0df": [
+            "anim/win",
+            "cc.AnimationClip"
+        ],
+        "a9hKqwNwVMVrmWhFUq1Wko": [
+            "mistouchForm",
+            "cc.Prefab"
+        ],
+        "79gGe8lvZIGLrnq3aSUb7f": [
+            "mistouchSound/砸完获得奖励",
+            "cc.AudioClip"
+        ],
+        "e2r7Re2mFKDpDzy8KATlti": [
+            "mistouchSound/锤子砸",
+            "cc.AudioClip"
+        ],
+        "1efBpkX4NNq7LHCcJRUqDO": [
+            "texture/AutoAtlas",
+            "cc.SpriteAtlas"
+        ],
+        "48kGunjqJKprNI2mqpvQQR": [
+            "texture/bg",
+            "cc.Texture2D"
+        ],
+        "aeUz6W1lBFqY1q+lry2FPm": [
+            "texture/bg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "cexwv+smdJqI/rLIqnu2hA": [
+            "texture/btnAgain",
+            "cc.SpriteFrame",
+            1
+        ],
+        "40B1SZ0b1CeIfy+0j6/Uyp": [
+            "texture/win_bg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6eWoAP6n5JkJ0dDznQfenN": [
+            "texture/开蛋/01",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9f2ukWtWpJ14v5kDhdgvJ8": [
+            "texture/开蛋/02",
+            "cc.SpriteFrame",
+            1
+        ],
+        "08HhOblJBLp7IzDBqQwxlT": [
+            "texture/开蛋/03",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1cAxJx0ARHV4WCaRkhbZ/K": [
+            "texture/形状 1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f19WKLLudAHIGR+ptaXqOR": [
+            "texture/待机/01",
+            "cc.SpriteFrame",
+            1
+        ],
+        "96cYsUAl9EIaOSMxOrkw6o": [
+            "texture/待机/02",
+            "cc.SpriteFrame",
+            1
+        ],
+        "48/NfWUSVNpIWJjwBsHlEr": [
+            "texture/待机/03",
+            "cc.SpriteFrame",
+            1
+        ],
+        "acBnwZuhVGtZhRZ62b3lsa": [
+            "texture/待机/04",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e30HfuLQFAYpPcKz5IqMlB": [
+            "texture/待机/05",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0fnDjHVllCa7lwGUowQOBC": [
+            "texture/待机/06",
+            "cc.SpriteFrame",
+            1
+        ],
+        "40uMfZrZ1Jir/MTQn8cwUT": [
+            "texture/待机/07",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3b3ZE1v3pBgpl9u2FpCUwh": [
+            "texture/快速点击",
+            "cc.SpriteFrame",
+            1
+        ],
+        "535hMtuOdKBLkT94smXhgs": [
+            "texture/投影",
+            "cc.SpriteFrame",
+            1
+        ],
+        "efDbwt+oJB7KO4e5aSu/kA": [
+            "texture/点1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "04zPFZM2VLoodMxSRd4d06": [
+            "texture/狂点",
+            "cc.Texture2D"
+        ],
+        "c7ro8BobBLoZZe0GnhI7AJ": [
+            "texture/狂点",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0e5kW0ZTxBUpytAbDCM+vl": [
+            "texture/电",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9aHjgCySxJUL9NXg9pFN9T": [
+            "texture/砸/01",
+            "cc.SpriteFrame",
+            1
+        ],
+        "95ychMLRhLaKI+Qy3zSfM+": [
+            "texture/砸/02",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a60cHPxO9NuqY6MvbZltNY": [
+            "texture/砸/03",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d5V8HlJtpMtqVkI0yw/hXS": [
+            "texture/砸/04",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a8sfYRZipDxrGo30qyy+bW": [
+            "texture/砸/05",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4fgzXoSVpPU7wPjsEbyIX2": [
+            "texture/砸/06",
+            "cc.SpriteFrame",
+            1
+        ],
+        "22jmEyqANFJavtCXuiTj13": [
+            "texture/砸/07",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3bioD6YR1DU5QGlGQ66jlO": [
+            "texture/砸/08",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4bdejo4FBP477bpG8NmksR": [
+            "texture/砸/09",
+            "cc.SpriteFrame",
+            1
+        ],
+        "14NHPSL8NAZbUGvWcctOvJ": [
+            "texture/进度条",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7c/ZkohBlFSY9uGk39U40Y": [
+            "texture/进度条2",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "04zPFZM2VLoodMxSRd4d06",
+        "08HhOblJBLp7IzDBqQwxlT",
+        "0e5kW0ZTxBUpytAbDCM+vl",
+        "0fFOvGvFFHd5nJTLtRe0df",
+        "0fnDjHVllCa7lwGUowQOBC",
+        "14NHPSL8NAZbUGvWcctOvJ",
+        "15b201831",
+        "1cAxJx0ARHV4WCaRkhbZ/K",
+        "1d64c994e",
+        "1efBpkX4NNq7LHCcJRUqDO",
+        "22jmEyqANFJavtCXuiTj13",
+        "3bioD6YR1DU5QGlGQ66jlO",
+        "3b3ZE1v3pBgpl9u2FpCUwh",
+        "40B1SZ0b1CeIfy+0j6/Uyp",
+        "40uMfZrZ1Jir/MTQn8cwUT",
+        "48kGunjqJKprNI2mqpvQQR",
+        "48/NfWUSVNpIWJjwBsHlEr",
+        "4bdejo4FBP477bpG8NmksR",
+        "4fgzXoSVpPU7wPjsEbyIX2",
+        "535hMtuOdKBLkT94smXhgs",
+        "6eWoAP6n5JkJ0dDznQfenN",
+        "79gGe8lvZIGLrnq3aSUb7f",
+        "7c/ZkohBlFSY9uGk39U40Y",
+        "7dyQ20x9BJcpYfNPd+r4Or",
+        "95ychMLRhLaKI+Qy3zSfM+",
+        "96cYsUAl9EIaOSMxOrkw6o",
+        "9aHjgCySxJUL9NXg9pFN9T",
+        "9f2ukWtWpJ14v5kDhdgvJ8",
+        "a60cHPxO9NuqY6MvbZltNY",
+        "a8sfYRZipDxrGo30qyy+bW",
+        "a9hKqwNwVMVrmWhFUq1Wko",
+        "acBnwZuhVGtZhRZ62b3lsa",
+        "aeUz6W1lBFqY1q+lry2FPm",
+        "bcO51hzV1F4pXFHWHFY2Vp",
+        "c7ro8BobBLoZZe0GnhI7AJ",
+        "cexwv+smdJqI/rLIqnu2hA",
+        "d5V8HlJtpMtqVkI0yw/hXS",
+        "e2r7Re2mFKDpDzy8KATlti",
+        "e30HfuLQFAYpPcKz5IqMlB",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "efDbwt+oJB7KO4e5aSu/kA",
+        "f19WKLLudAHIGR+ptaXqOR"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "0391d8dcd": [
+            "0e5kW0ZTxBUpytAbDCM+vl",
+            "14NHPSL8NAZbUGvWcctOvJ",
+            "1cAxJx0ARHV4WCaRkhbZ/K",
+            "3b3ZE1v3pBgpl9u2FpCUwh",
+            "40B1SZ0b1CeIfy+0j6/Uyp",
+            "535hMtuOdKBLkT94smXhgs",
+            "79gGe8lvZIGLrnq3aSUb7f",
+            "7c/ZkohBlFSY9uGk39U40Y",
+            "a9hKqwNwVMVrmWhFUq1Wko",
+            "aeUz6W1lBFqY1q+lry2FPm",
+            "cexwv+smdJqI/rLIqnu2hA",
+            "e2r7Re2mFKDpDzy8KATlti",
+            "efDbwt+oJB7KO4e5aSu/kA"
+        ],
+        "0532608ed": [
+            "22jmEyqANFJavtCXuiTj13",
+            "3bioD6YR1DU5QGlGQ66jlO",
+            "4bdejo4FBP477bpG8NmksR",
+            "4fgzXoSVpPU7wPjsEbyIX2",
+            "7dyQ20x9BJcpYfNPd+r4Or",
+            "95ychMLRhLaKI+Qy3zSfM+",
+            "9aHjgCySxJUL9NXg9pFN9T",
+            "a60cHPxO9NuqY6MvbZltNY",
+            "a8sfYRZipDxrGo30qyy+bW",
+            "d5V8HlJtpMtqVkI0yw/hXS"
+        ],
+        "068bc27f0": [
+            "04zPFZM2VLoodMxSRd4d06",
+            "15b201831",
+            "1d64c994e",
+            "48kGunjqJKprNI2mqpvQQR"
+        ],
+        "0a7a6c335": [
+            "08HhOblJBLp7IzDBqQwxlT",
+            "0fFOvGvFFHd5nJTLtRe0df",
+            "6eWoAP6n5JkJ0dDznQfenN",
+            "9f2ukWtWpJ14v5kDhdgvJ8"
+        ],
+        "0d14457f6": [
+            "0fnDjHVllCa7lwGUowQOBC",
+            "40uMfZrZ1Jir/MTQn8cwUT",
+            "48/NfWUSVNpIWJjwBsHlEr",
+            "96cYsUAl9EIaOSMxOrkw6o",
+            "acBnwZuhVGtZhRZ62b3lsa",
+            "bcO51hzV1F4pXFHWHFY2Vp",
+            "e30HfuLQFAYpPcKz5IqMlB",
+            "f19WKLLudAHIGR+ptaXqOR"
+        ]
+    },
+    "name": "mistouch",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

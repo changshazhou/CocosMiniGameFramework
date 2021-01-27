@@ -1,0 +1,78 @@
+{
+    "paths": {
+        "0cnu7W20FMbKA+aVpiUwnF": [
+            "texture/7",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c1KSRic+9IbbIBoKaOc07G": [
+            "texture/AutoAtlas",
+            "cc.SpriteAtlas"
+        ],
+        "54l5E9U81CgoQUdxq8zDhn": [
+            "texture/dikuang",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5eMVGDwdVF773S7V3yk6gn": [
+            "texture/s试用",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c8SensL5tHn6mRMW6pzD6+": [
+            "texture/try-form",
+            "cc.SpriteFrame",
+            1
+        ],
+        "aeZ9liMXtCTaAmTra9rPBr": [
+            "texture/不领取",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a3xiUpzM1BSYyWEnl0z0zM": [
+            "texture/光",
+            "cc.SpriteFrame",
+            1
+        ],
+        "cavDSkVFZHcYke+zJW+ybA": [
+            "tryForm",
+            "cc.Prefab"
+        ]
+    },
+    "uuids": [
+        "0cnu7W20FMbKA+aVpiUwnF",
+        "191ce6472",
+        "54l5E9U81CgoQUdxq8zDhn",
+        "5eMVGDwdVF773S7V3yk6gn",
+        "a3xiUpzM1BSYyWEnl0z0zM",
+        "aeZ9liMXtCTaAmTra9rPBr",
+        "c1KSRic+9IbbIBoKaOc07G",
+        "c8SensL5tHn6mRMW6pzD6+",
+        "cavDSkVFZHcYke+zJW+ybA",
+        "ecpdLyjvZBwrvm+cedCcQy"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "061f3ee20": [
+            "0cnu7W20FMbKA+aVpiUwnF",
+            "54l5E9U81CgoQUdxq8zDhn",
+            "5eMVGDwdVF773S7V3yk6gn",
+            "a3xiUpzM1BSYyWEnl0z0zM",
+            "aeZ9liMXtCTaAmTra9rPBr",
+            "cavDSkVFZHcYke+zJW+ybA"
+        ]
+    },
+    "name": "tryform",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

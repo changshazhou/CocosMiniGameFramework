@@ -1,0 +1,108 @@
+{
+    "paths": {
+        "aaWwADqzJAGr9llcuaTdUz": [
+            "entity/shopItem",
+            "cc.Prefab"
+        ],
+        "56jxpOglNBypQUeUPcWGis": [
+            "shopForm",
+            "cc.Prefab"
+        ],
+        "f65RfL4kBI15ywybbZ2tqg": [
+            "texture/AutoAtlas",
+            "cc.SpriteAtlas"
+        ],
+        "d7HZn+IvxN5I4X1fiw4xou": [
+            "texture/btn-green",
+            "cc.SpriteFrame",
+            1
+        ],
+        "34ddcFj6FA67spomMaxkDW": [
+            "texture/免费获得",
+            "cc.SpriteFrame",
+            1
+        ],
+        "12oXAGRMxE/pH2USkLayGr": [
+            "texture/皮肤金币",
+            "cc.SpriteFrame",
+            1
+        ],
+        "49Nzau3oVMDqLYrrEz8ASK": [
+            "texture/蓝按钮",
+            "cc.SpriteFrame",
+            1
+        ],
+        "805+QymAhFtJgR9scIWBCn": [
+            "texture/车库底框",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8bin7L+fpEyLtTJoacR+S6": [
+            "texture/选中",
+            "cc.SpriteFrame",
+            1
+        ],
+        "18cijU9dtKqJ5SMbtAqgl4": [
+            "texture/金币购买",
+            "cc.SpriteFrame",
+            1
+        ],
+        "935zgSHStBQInqhhTlAn0T": [
+            "texture/锁",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "0cnu7W20FMbKA+aVpiUwnF",
+        "12oXAGRMxE/pH2USkLayGr",
+        "13cba2d97",
+        "17be9944c",
+        "18cijU9dtKqJ5SMbtAqgl4",
+        "34ddcFj6FA67spomMaxkDW",
+        "49Nzau3oVMDqLYrrEz8ASK",
+        "56jxpOglNBypQUeUPcWGis",
+        "805+QymAhFtJgR9scIWBCn",
+        "8bin7L+fpEyLtTJoacR+S6",
+        "935zgSHStBQInqhhTlAn0T",
+        "aaWwADqzJAGr9llcuaTdUz",
+        "d7HZn+IvxN5I4X1fiw4xou",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f65RfL4kBI15ywybbZ2tqg"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "0183c51fb": [
+            "0cnu7W20FMbKA+aVpiUwnF",
+            "12oXAGRMxE/pH2USkLayGr",
+            "805+QymAhFtJgR9scIWBCn",
+            "8bin7L+fpEyLtTJoacR+S6",
+            "935zgSHStBQInqhhTlAn0T",
+            "aaWwADqzJAGr9llcuaTdUz"
+        ],
+        "0780a893a": [
+            "13cba2d97",
+            "17be9944c"
+        ],
+        "0b87adc9a": [
+            "18cijU9dtKqJ5SMbtAqgl4",
+            "34ddcFj6FA67spomMaxkDW",
+            "49Nzau3oVMDqLYrrEz8ASK",
+            "56jxpOglNBypQUeUPcWGis",
+            "d7HZn+IvxN5I4X1fiw4xou"
+        ]
+    },
+    "name": "shopform",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

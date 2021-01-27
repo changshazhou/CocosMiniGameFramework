@@ -1,10 +1,10 @@
 "use strict";
 
-require('adapter-min.js');
+require('adapter.js');
 
 __globalAdapter.init();
 
-requirePlugin('cocos');
+require('cocos/cocos2d-js.js');
 
 __globalAdapter.adaptEngine();
 

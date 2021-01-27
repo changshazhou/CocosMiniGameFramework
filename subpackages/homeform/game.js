@@ -1,1 +1,85 @@
-window.__require=function t(e,o,r){function n(i,f){if(!o[i]){if(!e[i]){var u=i.split("/");if(u=u[u.length-1],!e[u]){var p="function"==typeof __require&&__require;if(!f&&p)return p(u,!0);if(c)return c(u,!0);throw new Error("Cannot find module '"+i+"'")}i=u}var a=o[i]={exports:{}};e[i][0].call(a.exports,function(t){return n(e[i][1][t]||t)},a,a.exports,t,e,o,r)}return o[i].exports}for(var c="function"==typeof __require&&__require,i=0;i<r.length;i++)n(r[i]);return n}({homeForm:[function(t,e,o){"use strict";cc._RF.push(e,"bd20f+RMBZA2K3r9fr4ixs7","homeForm");var r,n=this&&this.__extends||(r=function(t,e){return(r=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)e.hasOwnProperty(o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}r(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),c=this&&this.__decorate||function(t,e,o,r){var n,c=arguments.length,i=c<3?e:null===r?r=Object.getOwnPropertyDescriptor(e,o):r;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)i=Reflect.decorate(t,e,o,r);else for(var f=t.length-1;f>=0;f--)(n=t[f])&&(i=(c<3?n(i):c>3?n(e,o,i):n(e,o))||i);return c>3&&i&&Object.defineProperty(e,o,i),i};Object.defineProperty(o,"__esModule",{value:!0});var i=t("../../script/framework/AD_POSITION"),f=t("../../script/framework/ui/homeBase"),u=cc._decorator,p=u.ccclass,a=(u.property,function(t){function e(){return null!==t&&t.apply(this,arguments)||this}return n(e,t),e.prototype.onShow=function(e){t.prototype.onShow.call(this,e),moosnow.form.showAd(i.AD_POSITION.FLOAT|i.AD_POSITION.BANNER,function(){},[cc.v2(0,0)],["adFloatLeftItem1"],cc.macro.MAX_ZINDEX,"\u6d6e\u52a8","\u9996\u9875"),moosnow.platform.showBanner(!1,function(){},moosnow.BANNER_HORIZONTAL.LEFT,moosnow.BANNER_VERTICAL.BOTTOM)},e.prototype.loadNextLevel=function(){Lite.data.getCurrentLevel()},c([p],e)}(f.default));o.default=a,cc._RF.pop()},{"../../script/framework/AD_POSITION":void 0,"../../script/framework/ui/homeBase":void 0}]},{},["homeForm"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  homeForm: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "bd20f+RMBZA2K3r9fr4ixs7", "homeForm");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) b.hasOwnProperty(p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var AD_POSITION_1 = require("../../script/framework/AD_POSITION");
+    var homeBase_1 = require("../../script/framework/ui/homeBase");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var HomeForm = function(_super) {
+      __extends(HomeForm, _super);
+      function HomeForm() {
+        return null !== _super && _super.apply(this, arguments) || this;
+      }
+      HomeForm.prototype.onShow = function(data) {
+        _super.prototype.onShow.call(this, data);
+        moosnow.form.showAd(AD_POSITION_1.AD_POSITION.FLOAT | AD_POSITION_1.AD_POSITION.BANNER, function() {}, [ cc.v2(0, 0) ], [ "adFloatLeftItem1" ], cc.macro.MAX_ZINDEX, "\u6d6e\u52a8", "\u9996\u9875");
+        moosnow.platform.showBanner(false, function() {}, moosnow.BANNER_HORIZONTAL.LEFT, moosnow.BANNER_VERTICAL.BOTTOM);
+      };
+      HomeForm.prototype.loadNextLevel = function() {
+        var level = Lite.data.getCurrentLevel();
+      };
+      HomeForm = __decorate([ ccclass ], HomeForm);
+      return HomeForm;
+    }(homeBase_1.default);
+    exports.default = HomeForm;
+    cc._RF.pop();
+  }, {
+    "../../script/framework/AD_POSITION": void 0,
+    "../../script/framework/ui/homeBase": void 0
+  } ]
+}, {}, [ "homeForm" ]);

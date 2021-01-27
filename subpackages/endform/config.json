@@ -1,0 +1,175 @@
+{
+    "paths": {
+        "acWq8e1UVJIrmGfVbMRhpd": [
+            "endForm",
+            "cc.Prefab"
+        ],
+        "a2wg68JMxGy6Auli6jircw": [
+            "sound/fail",
+            "cc.AudioClip"
+        ],
+        "06hxtWXNNIU5Z7vGKdizRP": [
+            "sound/win",
+            "cc.AudioClip"
+        ],
+        "71fDytvCtKe7in0CMl6mON": [
+            "texture/AutoAtlas",
+            "cc.SpriteAtlas"
+        ],
+        "bcMDypkWFOzav/7P9fcNzQ": [
+            "texture/ad_mask",
+            "cc.SpriteFrame",
+            1
+        ],
+        "be/kI0z51Ak4mTJcVQXthx": [
+            "texture/coin",
+            "cc.SpriteFrame",
+            1
+        ],
+        "15WOVU4ApBCJzhEr8aPs9x": [
+            "texture/sp_video",
+            "cc.SpriteFrame",
+            1
+        ],
+        "25u5uYKthNN6BBHtCmFGud": [
+            "texture/下一关",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c33rnkVH1BK6qP40LiKnCd": [
+            "texture/你失败了",
+            "cc.SpriteFrame",
+            1
+        ],
+        "77j9rXEoZMCrE11X38XkmX": [
+            "texture/你胜利了",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b9c13/1WdM95EFJ4OxX3qV": [
+            "texture/你获得了：",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b4HBmp22dF7I2+g1XvgAnY": [
+            "texture/免费复活",
+            "cc.SpriteFrame",
+            1
+        ],
+        "53YkLTfRhCHaBbu1qfIF5n": [
+            "texture/关闭",
+            "cc.SpriteFrame",
+            1
+        ],
+        "22daevfwBMVr7jixj6hlvF": [
+            "texture/勾选",
+            "cc.SpriteFrame",
+            1
+        ],
+        "8aym68cMlNtJSX2cnYWrBc": [
+            "texture/勾选框",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3dRATV7O5ANJ46yxjaakiU": [
+            "texture/复活",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9d9OBIEU5M6YfziHwKnPZ9": [
+            "texture/已翻开",
+            "cc.SpriteFrame",
+            1
+        ],
+        "dcm1Ytn25F9byHsi+OJg2a": [
+            "texture/按钮上的金币",
+            "cc.SpriteFrame",
+            1
+        ],
+        "86cmZwgkVJU47Bm4eijGNU": [
+            "texture/未翻开",
+            "cc.SpriteFrame",
+            1
+        ],
+        "70QxvKvxFLTbgPPDaFd67H": [
+            "texture/继续游戏",
+            "cc.SpriteFrame",
+            1
+        ],
+        "76CRzdf8lOur8W8Hz/f2Ro": [
+            "texture/绿大按钮",
+            "cc.SpriteFrame",
+            1
+        ],
+        "39HuGmU/JMwbrJf/ECMGIn": [
+            "texture/通用导出",
+            "cc.Texture2D"
+        ],
+        "d5yzRp2uVDH59fIt7gEZiw": [
+            "texture/通用导出",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "06hxtWXNNIU5Z7vGKdizRP",
+        "15WOVU4ApBCJzhEr8aPs9x",
+        "1b4731254",
+        "22daevfwBMVr7jixj6hlvF",
+        "25u5uYKthNN6BBHtCmFGud",
+        "39HuGmU/JMwbrJf/ECMGIn",
+        "3dRATV7O5ANJ46yxjaakiU",
+        "53YkLTfRhCHaBbu1qfIF5n",
+        "70QxvKvxFLTbgPPDaFd67H",
+        "71fDytvCtKe7in0CMl6mON",
+        "76CRzdf8lOur8W8Hz/f2Ro",
+        "77j9rXEoZMCrE11X38XkmX",
+        "86cmZwgkVJU47Bm4eijGNU",
+        "8aym68cMlNtJSX2cnYWrBc",
+        "9d9OBIEU5M6YfziHwKnPZ9",
+        "a2wg68JMxGy6Auli6jircw",
+        "acWq8e1UVJIrmGfVbMRhpd",
+        "b4HBmp22dF7I2+g1XvgAnY",
+        "b9c13/1WdM95EFJ4OxX3qV",
+        "bcMDypkWFOzav/7P9fcNzQ",
+        "be/kI0z51Ak4mTJcVQXthx",
+        "c33rnkVH1BK6qP40LiKnCd",
+        "d5yzRp2uVDH59fIt7gEZiw",
+        "dcm1Ytn25F9byHsi+OJg2a",
+        "ecpdLyjvZBwrvm+cedCcQy"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "017888598": [
+            "1b4731254",
+            "39HuGmU/JMwbrJf/ECMGIn"
+        ],
+        "04fb9499e": [
+            "15WOVU4ApBCJzhEr8aPs9x",
+            "22daevfwBMVr7jixj6hlvF",
+            "70QxvKvxFLTbgPPDaFd67H",
+            "76CRzdf8lOur8W8Hz/f2Ro",
+            "77j9rXEoZMCrE11X38XkmX",
+            "8aym68cMlNtJSX2cnYWrBc",
+            "acWq8e1UVJIrmGfVbMRhpd",
+            "b9c13/1WdM95EFJ4OxX3qV",
+            "bcMDypkWFOzav/7P9fcNzQ",
+            "be/kI0z51Ak4mTJcVQXthx",
+            "c33rnkVH1BK6qP40LiKnCd",
+            "dcm1Ytn25F9byHsi+OJg2a"
+        ]
+    },
+    "name": "endform",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}
